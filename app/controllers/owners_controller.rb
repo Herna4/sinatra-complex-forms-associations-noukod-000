@@ -18,9 +18,6 @@ class OwnersController < ApplicationController
     end
     @owner.save
     redirect "owners/#{@owner.id}"
-
-
-
   end
 
   get '/owners/:id/edit' do
